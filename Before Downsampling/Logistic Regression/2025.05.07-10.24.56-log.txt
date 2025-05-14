@@ -1,0 +1,22 @@
+SPARK_CONF_DIR: /home/xb56574/is789sp25_user/project/spark-job-21492335-4-nodes-2025.05.07-10.24.56/spark-conf
+master:cnode002
+slaves: cnode003
+cnode004
+cnode006
+starting org.apache.spark.deploy.master.Master, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-xb56574-org.apache.spark.deploy.master.Master-1-cnode002.out
+cnode006: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-xb56574-org.apache.spark.deploy.worker.Worker-1-cnode006.out
+cnode004: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-xb56574-org.apache.spark.deploy.worker.Worker-1-cnode004.out
+cnode003: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-xb56574-org.apache.spark.deploy.worker.Worker-1-cnode003.out
+Test Accuracy: 0.8647387325974673
+/umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/context.py:158: FutureWarning: Deprecated in 3.0.0. Use SparkSession.builder.getOrCreate() instead.
+Precision: 0.8325892567669011
+Recall: 0.8647387325974673
+F1 Score: 0.8021849783680679
+Confusion Matrix:
+[[329778.     25.]
+ [ 51565.     42.]]
+/umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3//bin/spark-submit --master spark://cnode002:7077 --driver-memory 40g --executor-memory 20g --total-executor-cores 16 --executor-cores 4 /umbc/rs/is789sp25/users/xb56574/project/logr.py
+cnode006: stopping org.apache.spark.deploy.worker.Worker
+cnode004: stopping org.apache.spark.deploy.worker.Worker
+cnode003: stopping org.apache.spark.deploy.worker.Worker
+stopping org.apache.spark.deploy.master.Master
