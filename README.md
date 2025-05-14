@@ -12,7 +12,9 @@ This project aims to predict the severity of traffic accidents using historical 
 - **Preprocessing**: Python script in `.ipynb` format, outlining the preprocessing steps performed on the dataset.
 - **Before Downsampling**: Python scripts and results of model training **before** downsampling the data.
 - **After Downsampling**: Python scripts and results of model training **after** applying downsampling.
-- **Configuration**: Results of machine learning models (Logistic Regression, Random Forest, Gradient Boosting) with various configurations.
+- **Random Forest config**: Results of machine learning models  with various configurations.
+- **Logistic Regression config**: Results of machine learning models  with various configurations.
+- **Gradient Boosting config**: Results of machine learning models  with various configurations.
 - **Partitions**: Results from partitioning experiments for the Gradient Boosting model.
 - **Slurm File**: Contains the Slurm script for submitting Spark jobs on the cluster.
 - **Project Report**:Contains the final report of the project.
