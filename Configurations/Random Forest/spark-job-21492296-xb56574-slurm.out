@@ -1,0 +1,16 @@
+Current Time : 2025.05.07-02.23.38
+SPARK_CONF_DIR: /home/xb56574/is789sp25_user/project/spark-job-21492296-3-nodes-2025.05.07-02.23.38/spark-conf
+master:cnode004
+nodes: cnode004
+cnode006
+cnode007
+element1:cnode004
+element1:cnode006
+element1:cnode007
+slaves: cnode006
+cnode007
+MemTotal: 394696256 kB MemFree: 146288572 kB MemAvailable: 378798744 kB Cached: 233451816 kB SwapCached: 63704 kB SwapTotal: 12582908 kB SwapFree: 9979748 kB
+core file size (blocks, -c) 0 data seg size (kbytes, -d) unlimited scheduling priority (-e) 0 file size (blocks, -f) unlimited pending signals (-i) 1541638 max locked memory (kbytes, -l) unlimited max memory size (kbytes, -m) 18432000 open files (-n) 131072 pipe size (512 bytes, -p) 8 POSIX message queues (bytes, -q) 819200 real-time priority (-r) 0 stack size (kbytes, -s) unlimited cpu time (seconds, -t) unlimited max user processes (-u) 4096 virtual memory (kbytes, -v) unlimited file locks (-x) unlimited
+cnode007: no org.apache.spark.deploy.worker.Worker to stop
+cnode006: no org.apache.spark.deploy.worker.Worker to stop
+no org.apache.spark.deploy.master.Master to stop
