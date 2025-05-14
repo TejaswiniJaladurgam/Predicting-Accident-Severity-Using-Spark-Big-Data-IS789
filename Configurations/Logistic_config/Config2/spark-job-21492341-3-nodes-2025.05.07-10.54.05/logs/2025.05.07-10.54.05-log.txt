@@ -1,0 +1,19 @@
+SPARK_CONF_DIR: /home/tejaswj1/is789sp25_user/project3/spark-job-21492341-3-nodes-2025.05.07-10.54.05/spark-conf
+master:cnode002
+slaves: cnode003
+cnode004
+starting org.apache.spark.deploy.master.Master, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-tejaswj1-org.apache.spark.deploy.master.Master-1-cnode002.out
+cnode004: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-tejaswj1-org.apache.spark.deploy.worker.Worker-1-cnode004.out
+cnode003: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-tejaswj1-org.apache.spark.deploy.worker.Worker-1-cnode003.out
+Test Accuracy: 0.6733842048472239
+/umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/context.py:158: FutureWarning: Deprecated in 3.0.0. Use SparkSession.builder.getOrCreate() instead.
+Precision: 0.6388071646693545
+Recall: 0.6733842048472239
+F1 Score: 0.5784191916675049
+Confusion Matrix:
+[[100271.   3126.]
+ [ 47424.   3948.]]
+/umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3//bin/spark-submit --master spark://cnode002:7077 --driver-memory 40g --executor-memory 10g --total-executor-cores 9 --executor-cores 3 /umbc/rs/is789sp25/users/tejaswj1/project3/lg_code1.py
+cnode004: stopping org.apache.spark.deploy.worker.Worker
+cnode003: stopping org.apache.spark.deploy.worker.Worker
+stopping org.apache.spark.deploy.master.Master
