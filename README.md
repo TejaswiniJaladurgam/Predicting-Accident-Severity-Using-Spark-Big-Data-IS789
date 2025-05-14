@@ -9,7 +9,7 @@ This project aims to predict the severity of traffic accidents using historical 
 
 ## File Structure
 - **Dataset**: Contains the dataset used for the project.
-- **Preprocessing.py**: Python script in `.ipynb` format, outlining the preprocessing steps performed on the dataset.
+- **Preprocessing**: Python script in `.ipynb` format, outlining the preprocessing steps performed on the dataset.
 - **Before Downsampling**: Python scripts and results of model training **before** downsampling the data.
 - **After Downsampling**: Python scripts and results of model training **after** applying downsampling.
 - **Configuration**: Results of machine learning models (Logistic Regression, Random Forest, Gradient Boosting) with various configurations.
